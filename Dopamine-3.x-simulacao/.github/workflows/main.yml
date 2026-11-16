@@ -103,6 +103,6 @@ jobs:
         id: dopamine-latest-upload
         uses: actions/upload-artifact@main
         with:
-          name: Dopamine
+          name: Dopaminee
           path: |
             ${{ github.workspace }}/Application/Dopamine.ipa
